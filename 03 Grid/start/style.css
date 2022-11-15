@@ -1,0 +1,53 @@
+.grid {
+display: grid;    
+grid-template-columns: 90px 90px 90px 90px;
+height: 400px;
+}
+
+#result {
+display: flex;
+align-items: flex-end;
+justify-content: flex-end;
+background-color: #424c52;    
+grid-column: 1/5;
+border: initial;
+color: white;
+font-weight: bold;
+font-size: 50px;
+}
+
+.symbol {
+background-color: #d2dce4;    
+border: #95a8b7 solid 2px;    
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: bold;    
+font-size: 25px;
+}
+
+.grid-item {
+border: #95a8b7 solid 2px;    
+background-color: #eff2f5;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: bold;    
+font-size: 25px;
+}
+
+.equal {
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #f77077;
+height: 100%;
+grid-row-start: 3;
+grid-row-end: 7;
+grid-column-start: 4;
+grid-column-end: 4;
+border: 1px solid black;
+font-weight: bold;    
+font-size: 25px;
+}
+
