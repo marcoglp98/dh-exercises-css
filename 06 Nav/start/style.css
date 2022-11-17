@@ -1,0 +1,87 @@
+nav {
+display: flex;
+background-color: #212529;    
+height: 50px;
+flex-direction: row;
+gap: 50px;
+justify-content: flex-start;
+}
+
+.navbar {
+display: flex; 
+color: #9b9d9f;
+align-items: flex-start;
+gap: 15px;
+font-size: 18px;
+}
+
+#title {
+    display: flex; 
+    color: white;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 20px;   
+}
+
+#drop {
+display: flex;
+background-color: inherit;   
+color: #9b9d9f;
+border: none;
+font-size: 15px;
+}
+
+#home {
+color: white;    
+}
+#button {
+background-color: inherit;    
+color: #9b9d9f;
+border: none;
+}
+
+#searchbtn {
+display: flex;
+background-color: inherit;    
+color: #1c8754;
+border: #1c8754 solid 1px;    
+align-content: flex-end;
+}
+
+#searchbtn:hover {
+ background-color: #1c8754;  
+color: white;
+}
+
+
+.title {
+justify-content: left;
+display: flex; 
+color: white;
+align-items: flex-start;
+gap: 15px;
+font-size: 18px;
+}
+
+.hamburger{
+    display: flex; 
+    color: #9b9d9f;
+    align-items: flex-end;
+    gap: 10px;
+    font-size: 20px;     
+    background-color: #212529;
+border: none;
+}
+
+@media screen  and (max-width: 768px) {
+.navbar {
+display: none;    
+}
+}
+
+
+@media screen and (min-width: 768px) {
+.hamburger {
+display: none;    
+}
+}    
