@@ -1,0 +1,96 @@
+body {
+display: flex;    
+}
+
+section {
+display: flex;
+flex-direction: row;    
+gap: 2%;
+}
+
+.card {
+display: flex;
+border: black 1px solid;    
+border-radius: 10px;
+background: linear-gradient(175deg, rgba(195,195,204,1) 40%, rgba(255,255,255,1) 100%, rgba(0,212,255,1) 100%);
+padding: 5px;
+flex-direction: column;
+height: 615px;
+}
+
+.title {
+display: flex;    
+}
+
+.date {
+display: flex;
+color: white;    
+}
+
+.circle {
+display: flex;
+position: relative;
+top: 20%;  
+}
+
+#catdate1 {
+display: flex;
+color: white;    
+position: relative;
+top: 28%;
+right: 22%;
+}
+
+#catdate2 {
+display: flex;
+color: white;    
+position: relative;
+top: 28%;
+right: 18%;
+}
+
+#catdate3 {
+display: flex;
+color: white;    
+position: relative;
+top: 28%; 
+right: 28%;
+}
+            
+#button1 {
+position: relative;
+color: black;    
+left: 35%;
+}
+
+#button2 {
+position: relative;
+color: black;    
+left: 41%;
+}
+
+#button3 {
+position: relative;
+color: black;    
+left: 30%;
+}
+            
+h3{
+display: flex;
+position: relative;    
+left: 3%;
+}
+
+@media screen and (max-width: 768px){
+section{
+flex-flow: column wrap;
+}    
+}
+
+
+@media screen and (max-width: 375px){
+section{
+flex-direction: column;    
+}
+}
+    
