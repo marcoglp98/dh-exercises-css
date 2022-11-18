@@ -1,0 +1,34 @@
+body {
+display: grid;    
+grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 25% 20% 20%;
+}
+
+#green {
+ grid-column: span 5;   
+}
+
+#yellow {
+grid-column: span 2;    
+grid-row: span 2;
+}
+
+#orange {
+grid-row: 4;   
+grid-column: span 4;
+}
+
+#red {
+grid-row: span 2;    
+grid-column: span 2;
+}
+
+#blue {
+grid-row: span 3;    
+}
+
+ul {
+display: grid;    
+grid-template-columns: auto auto;
+grid-template-rows: auto auto;
+}
